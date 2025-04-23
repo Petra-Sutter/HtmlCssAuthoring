@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: aliceblue
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+    background-color: cadetblue;
+    color: #fff;
+    border-bottom: 4px solid black;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 400px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .gallery::after {
+    content: "";
+    width: 400px;
+  }
+  
