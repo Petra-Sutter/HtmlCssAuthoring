@@ -1,0 +1,8 @@
+main {text-align: center; display: flexbox; flex-direction: column; padding: 30px; margin: 0;}
+img {text-align: center; display: block; max-width: 100%; img-align: center;
+     px;}
+     #img-caption {font-size: 13 px; font-weight: bold; margin-top: 8px;}
+html {background-color: beige;}
+#title {background-color: white; padding: 8px 0 8px 0;}
+#tribute-link {display: inline-block; background-color: white; display: inline-block; height: 30px; width: 140px; align-items: center; text-decoration: none; color: black; font-weight: bold;}
+#tribute-link:hover {background-color:olivedrab;}
